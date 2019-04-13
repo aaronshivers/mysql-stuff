@@ -4,7 +4,7 @@ CREATE TABLE test (
   qty INT NOT NULL DEFAULT 0
 );
 
-LOAD XML LOCAL INFILE '~/Desktop/query.xml'
+LOAD XML LOCAL INFILE '~/Desktop/mysql-stuff/xml/fruit.xml'
 
 INTO TABLE test (
   id,
