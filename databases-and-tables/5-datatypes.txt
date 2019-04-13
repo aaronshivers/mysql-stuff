@@ -1,0 +1,8 @@
+INT 
+- Whole Numbers
+
+VARCHAR 
+- Variable Length Strings (1 - 255 characters)
+- Length maximum must be specified
+- example
+  - varchar(100)
