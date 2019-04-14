@@ -1,8 +1,9 @@
 convert entire database to xml
-mysqldump -X database_name > filename.xml
+sudo mysqldump -X fruitDB > ~/Desktop/mysql-stuff/xml/fruit.xml
 
 create xml from a query
-sudo mysql -X fruitDB 'SELECT * FROM fruit' > ~/Desktop/query.xml
+sudo mysql -X fruitDB -e 'SELECT * FROM fruit' > ~/Desktop/query.xml
+
 
 create xml from a table
-sudo mysqldump -X fruitDB fruit > ~/Desktop/fruit.xml
+sudo mysqldump -X fruitDB fruit > ~/Desktop/mysql-stuff/xml/fruit.xml

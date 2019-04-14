@@ -1,7 +1,7 @@
 LOAD XML LOCAL INFILE '~/Desktop/mysql-stuff/xml/fruit.xml'
 
 INTO TABLE fruit (
-  fruit_id,
+  id,
   name,
   qty
 );
