@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT name FROM fruitDB.fruit
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="name">bananas</field>
+  </row>
+
+  <row>
+	<field name="name">oranges</field>
+  </row>
+
+  <row>
+	<field name="name">apples</field>
+  </row>
+</resultset>

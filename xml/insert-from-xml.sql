@@ -1,10 +1,10 @@
 LOAD XML LOCAL INFILE '~/Desktop/mysql-stuff/xml/fruit.xml'
 
-INTO TABLE fruit (
+INTO TABLE fruitDB.fruit (
   id,
   name,
   qty
 );
 
 -- execute from cli
--- sudo mysql fruitDB < ~/Desktop/mysql-stuff/xml/insert-from-xml.sql
+-- sudo mysql < ~/Desktop/mysql-stuff/xml/insert-from-xml.sql
