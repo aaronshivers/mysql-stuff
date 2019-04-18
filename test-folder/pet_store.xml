@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="pet_store">
+	<table_structure name="items">
+		<field Field="item_id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="category" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="qty" Type="int(11)" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="items" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="item_id" Collation="A" Cardinality="7" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="items" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="7" Avg_row_length="2340" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="8" Create_time="2019-04-13 01:47:43" Update_time="2019-04-13 01:47:43" Collation="latin1_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="items">
+	<row>
+		<field name="item_id">1</field>
+		<field name="name">dog food</field>
+		<field name="category">food</field>
+		<field name="qty">7</field>
+	</row>
+	<row>
+		<field name="item_id">2</field>
+		<field name="name">cat food</field>
+		<field name="category">food</field>
+		<field name="qty">16</field>
+	</row>
+	<row>
+		<field name="item_id">3</field>
+		<field name="name">rope</field>
+		<field name="category">toys</field>
+		<field name="qty">5</field>
+	</row>
+	<row>
+		<field name="item_id">4</field>
+		<field name="name">ball</field>
+		<field name="category">toys</field>
+		<field name="qty">4</field>
+	</row>
+	<row>
+		<field name="item_id">5</field>
+		<field name="name">sweater</field>
+		<field name="category">clothing</field>
+		<field name="qty">17</field>
+	</row>
+	<row>
+		<field name="item_id">6</field>
+		<field name="name">goldfish</field>
+		<field name="category">animals</field>
+		<field name="qty">23</field>
+	</row>
+	<row>
+		<field name="item_id">7</field>
+		<field name="name">hamster</field>
+		<field name="category">animals</field>
+		<field name="qty">7</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
